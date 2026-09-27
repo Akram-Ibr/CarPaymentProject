@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Loan Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+        }
+        .results-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            width: 400px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            font-size: 16px;
+            color: #444;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            color: white;
+            background-color: #4CAF50;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="results-container">
+        <h1>Your Loan Summary</h1>
+        <p><strong>Location:</strong> {{ city }}, {{ state }}</p>
+        <p><strong>Estimated APR:</strong> {{ apr }}%</p>
+        <p><strong>Loan Amount:</strong> ${{ loan_amount }}</p>
+        <p><strong>Monthly Payment:</strong> ${{ monthly_payment }}</p>
+        <p><strong>Total Interest Paid:</strong> ${{ total_interest }}</p>
+        
+        <a href="/">Calculate Another</a>
+    </div>
+</body>
+</html>
