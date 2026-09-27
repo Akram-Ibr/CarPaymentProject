@@ -1,6 +1,6 @@
 # Car Loan Calculator
 
-A Python and Flask web app that can estimate monthly car payments using real ZIP-code-based tax data — so you can run the numbers before ever stepping into a dealership.
+A Python and Flask web app that can estimate monthly car payments using real ZIP-code-based tax data, so you can run the numbers before ever stepping into a dealership.
 
 # Features
 
@@ -35,6 +35,6 @@ A Python and Flask web app that can estimate monthly car payments using real ZIP
 
 # What I Learned
 
-Coming from AP Computer Science Principles/A in high school, I had originally thought classes and object-oriented programming as basic, simplelike. Building this project let me realize how much more powerful and versatile, that same foundation can become in practice — especially when applying it across two different languages (Python and HTML) and combining them into one combined application.
+Coming from AP Computer Science Principles/A in high school, I had originally thought classes and object-oriented programming as basic, simplelike. Building this project let me realize how much more powerful and versatile, that same foundation can become in practice â€” especially when applying it across two different languages (Python and HTML) and combining them into one combined application.
 
-I also built and tested a command-line version of the calculator first, before adding the Flask web interface — this let me confirm all the core code worked correctly before attempting to leanr and build a web interface on top of it.
+I also built and tested a command-line version of the calculator first, before adding the Flask web interface â€” this let me confirm all the core code worked correctly before attempting to leanr and build a web interface on top of it.
